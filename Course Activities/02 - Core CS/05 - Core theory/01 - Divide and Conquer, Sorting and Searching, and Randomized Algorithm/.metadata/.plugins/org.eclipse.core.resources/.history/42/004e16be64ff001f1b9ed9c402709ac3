@@ -1,0 +1,20 @@
+package karatsuba;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+Karatsuba karatsuba = new KaratsubaImplementation();
+
+public class KaratsubaImplementationTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+	@Test
+	public void singleDigitMultiplication() {
+		
+	}
+
+}

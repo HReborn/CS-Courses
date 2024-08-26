@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="karatsuba.KaratsubaImplementationTest" time="0.39" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/Reborn/Repositories/CS-Courses/Course Activities/02 - Core CS/05 - Core theory/01 - Divide and Conquer, Sorting and Searching, and Randomized Algorithm/Karatsuba/KaratsubaImplementation/target/test-classes:/home/Reborn/Repositories/CS-Courses/Course Activities/02 - Core CS/05 - Core theory/01 - Divide and Conquer, Sorting and Searching, and Randomized Algorithm/Karatsuba/KaratsubaImplementation/target/classes:/home/Reborn/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/Reborn/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/Reborn/.m2/repository/ch/qos/logback/logback-classic/1.5.17/logback-classic-1.5.17.jar:/home/Reborn/.m2/repository/ch/qos/logback/logback-core/1.5.17/logback-core-1.5.17.jar:/home/Reborn/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-17-oracle-x64/lib"/>
+    <property name="sun.java.command" value="/home/Reborn/Repositories/CS-Courses/Course Activities/02 - Core CS/05 - Core theory/01 - Divide and Conquer, Sorting and Searching, and Randomized Algorithm/Karatsuba/KaratsubaImplementation/target/surefire/surefirebooter-20250315230041806_3.jar /home/Reborn/Repositories/CS-Courses/Course Activities/02 - Core CS/05 - Core theory/01 - Divide and Conquer, Sorting and Searching, and Randomized Algorithm/Karatsuba/KaratsubaImplementation/target/surefire 2025-03-15T23-00-41_552-jvmRun1 surefire-20250315230041806_1tmp surefire_0-20250315230041806_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/Reborn/Repositories/CS-Courses/Course Activities/02 - Core CS/05 - Core theory/01 - Divide and Conquer, Sorting and Searching, and Randomized Algorithm/Karatsuba/KaratsubaImplementation/target/test-classes:/home/Reborn/Repositories/CS-Courses/Course Activities/02 - Core CS/05 - Core theory/01 - Divide and Conquer, Sorting and Searching, and Randomized Algorithm/Karatsuba/KaratsubaImplementation/target/classes:/home/Reborn/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/Reborn/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/Reborn/.m2/repository/ch/qos/logback/logback-classic/1.5.17/logback-classic-1.5.17.jar:/home/Reborn/.m2/repository/ch/qos/logback/logback-core/1.5.17/logback-core-1.5.17.jar:/home/Reborn/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/Reborn"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-17-oracle-x64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/Reborn/Repositories/CS-Courses/Course Activities/02 - Core CS/05 - Core theory/01 - Divide and Conquer, Sorting and Searching, and Randomized Algorithm/Karatsuba/KaratsubaImplementation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/Reborn/Repositories/CS-Courses/Course Activities/02 - Core CS/05 - Core theory/01 - Divide and Conquer, Sorting and Searching, and Randomized Algorithm/Karatsuba/KaratsubaImplementation/target/surefire/surefirebooter-20250315230041806_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
+    <property name="user.name" value="Reborn"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.11.0-19-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/Reborn/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="user.dir" value="/home/Reborn/Repositories/CS-Courses/Course Activities/02 - Core CS/05 - Core theory/01 - Divide and Conquer, Sorting and Searching, and Randomized Algorithm/Karatsuba/KaratsubaImplementation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.11+7-LTS-207"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="quadDigitMultiplicationInverse" classname="karatsuba.KaratsubaImplementationTest" time="0.211">
+    <system-out><![CDATA[23:00:42.547 [main] INFO karatsuba.KaratsubaImplementation -- Karatsuba object created.
+23:00:42.555 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 5678 and 1234
+23:00:42.556 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 5678 1234
+23:00:42.557 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.557 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.557 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 5678 1234
+23:00:42.557 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.557 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation with 56 78 12 34
+23:00:42.558 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 56 78 12 34
+23:00:42.558 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 56 and 12
+23:00:42.558 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 56 12
+23:00:42.558 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.558 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.558 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 56 12
+23:00:42.558 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.558 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 5 6 1 2
+23:00:42.558 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 5 6 1 2
+23:00:42.558 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 5 and 1
+23:00:42.558 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 5
+23:00:42.559 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 6 and 2
+23:00:42.559 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 12
+23:00:42.559 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 11 and 3
+23:00:42.559 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 11 3
+23:00:42.559 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.559 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.559 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.559 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.559 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 isn't normalized
+23:00:42.559 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 3 resulting in 03
+23:00:42.560 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.560 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.560 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 11 03
+23:00:42.560 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.560 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 1 1 0 3
+23:00:42.560 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 1 1 0 3
+23:00:42.561 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 0
+23:00:42.561 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.561 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 3
+23:00:42.561 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 3
+23:00:42.561 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 2 and 3
+23:00:42.561 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 6
+23:00:42.561 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 3
+23:00:42.561 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 0
+23:00:42.562 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 30
+23:00:42.562 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 11 and 3 is 33
+23:00:42.562 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 16
+23:00:42.562 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 500
+23:00:42.562 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 160
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 56 and 12 is 672
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 78 and 34
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 78 34
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 78 34
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 7 8 3 4
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 7 8 3 4
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 7 and 3
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 21
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 8 and 4
+23:00:42.563 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 32
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 15 and 7
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 15 7
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 7 isn't normalized
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 7 resulting in 07
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 15 07
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 1 5 0 7
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 1 5 0 7
+23:00:42.564 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 0
+23:00:42.565 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.565 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 5 and 7
+23:00:42.565 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 35
+23:00:42.565 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 6 and 7
+23:00:42.565 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 42
+23:00:42.565 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 7
+23:00:42.565 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 0
+23:00:42.565 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 70
+23:00:42.566 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 15 and 7 is 105
+23:00:42.566 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 52
+23:00:42.566 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 2100
+23:00:42.567 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 520
+23:00:42.567 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 78 and 34 is 2652
+23:00:42.567 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 134 and 46
+23:00:42.568 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 134 46
+23:00:42.568 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 is odd
+23:00:42.569 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 is odd
+23:00:42.569 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 134 isn't normalized
+23:00:42.569 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 134 resulting in 0134
+23:00:42.570 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.570 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 46 isn't normalized
+23:00:42.570 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 46 resulting in 046
+23:00:42.570 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.571 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 is odd
+23:00:42.572 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.572 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 is odd
+23:00:42.572 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 046 isn't normalized
+23:00:42.572 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 046 resulting in 0046
+23:00:42.572 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.572 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.572 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 0134 0046
+23:00:42.573 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.573 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation with 1 34 0 46
+23:00:42.573 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 1 34 0 46
+23:00:42.574 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 0
+23:00:42.574 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.574 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 34 and 46
+23:00:42.574 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 34 46
+23:00:42.574 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.574 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.574 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 34 46
+23:00:42.574 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.575 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 3 4 4 6
+23:00:42.575 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 3 4 4 6
+23:00:42.575 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 3 and 4
+23:00:42.575 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 12
+23:00:42.575 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 4 and 6
+23:00:42.575 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 24
+23:00:42.575 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 7 and 10
+23:00:42.575 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 7 10
+23:00:42.575 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.575 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.576 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 7 isn't normalized
+23:00:42.576 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 7 resulting in 07
+23:00:42.576 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.576 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.576 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.576 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 07 10
+23:00:42.576 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.576 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 0 7 1 0
+23:00:42.576 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 0 7 1 0
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 0 and 1
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 7 and 0
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 7 and 1
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 7
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 7
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 0
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 70
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 7 and 10 is 70
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 34
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 1200
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 340
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 34 and 46 is 1564
+23:00:42.577 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 35 and 46
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 35 46
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 35 46
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 3 5 4 6
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 3 5 4 6
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 3 and 4
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 12
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 5 and 6
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 30
+23:00:42.578 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 8 and 10
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 8 10
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 8 isn't normalized
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 8 resulting in 08
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 08 10
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 0 8 1 0
+23:00:42.579 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 0 8 1 0
+23:00:42.580 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 0 and 1
+23:00:42.580 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.580 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 8 and 0
+23:00:42.580 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.580 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 8 and 1
+23:00:42.580 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 8
+23:00:42.580 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 8
+23:00:42.580 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 0
+23:00:42.580 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 80
+23:00:42.580 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 8 and 10 is 80
+23:00:42.580 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 38
+23:00:42.581 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 1200
+23:00:42.581 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 380
+23:00:42.581 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 35 and 46 is 1610
+23:00:42.581 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 46
+23:00:42.581 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 0
+23:00:42.581 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 4600
+23:00:42.581 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 134 and 46 is 6164
+23:00:42.581 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 2840
+23:00:42.582 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 6720000
+23:00:42.582 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 284000
+23:00:42.582 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 5678 and 1234 is 7006652
+]]></system-out>
+  </testcase>
+  <testcase name="doubleDigitMultiplication" classname="karatsuba.KaratsubaImplementationTest" time="0.012">
+    <system-out><![CDATA[23:00:42.583 [main] INFO karatsuba.KaratsubaImplementation -- Karatsuba object created.
+23:00:42.583 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 21 and 89
+23:00:42.583 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 21 89
+23:00:42.583 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.584 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.584 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 21 89
+23:00:42.584 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.592 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 2 1 8 9
+23:00:42.592 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 2 1 8 9
+23:00:42.592 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 2 and 8
+23:00:42.592 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 16
+23:00:42.592 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 9
+23:00:42.592 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 9
+23:00:42.592 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 3 and 17
+23:00:42.592 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 3 17
+23:00:42.592 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.592 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.592 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 isn't normalized
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 3 resulting in 03
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 03 17
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 0 3 1 7
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 0 3 1 7
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 0 and 1
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 3 and 7
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 21
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 3 and 8
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 24
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 3
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 0
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 30
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 3 and 17 is 51
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 26
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 1600
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 260
+23:00:42.593 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 21 and 89 is 1869
+]]></system-out>
+  </testcase>
+  <testcase name="tripleDigitMultiplication" classname="karatsuba.KaratsubaImplementationTest" time="0.006">
+    <system-out><![CDATA[23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Karatsuba object created.
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 313 and 862
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 313 862
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 is odd
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 is odd
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 313 isn't normalized
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 313 resulting in 0313
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 is odd
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 862 isn't normalized
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 862 resulting in 0862
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 0313 0862
+23:00:42.594 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.595 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation with 3 13 8 62
+23:00:42.595 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 3 13 8 62
+23:00:42.595 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 3 and 8
+23:00:42.595 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 24
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 13 and 62
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 13 62
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 13 62
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 1 3 6 2
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 1 3 6 2
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 6
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 6
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 3 and 2
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 6
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 4 and 8
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 32
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 20
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 600
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 200
+23:00:42.596 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 13 and 62 is 806
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 16 and 70
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 16 70
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 16 70
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 1 6 7 0
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 1 6 7 0
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 7
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 7
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 6 and 0
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 7 and 7
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 49
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 42
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 700
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 420
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 16 and 70 is 1120
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 290
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 240000
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 29000
+23:00:42.597 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 313 and 862 is 269806
+]]></system-out>
+  </testcase>
+  <testcase name="singleDigitMultiplication" classname="karatsuba.KaratsubaImplementationTest" time="0.001">
+    <system-out><![CDATA[23:00:42.620 [main] INFO karatsuba.KaratsubaImplementation -- Karatsuba object created.
+23:00:42.621 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 4 and 7
+23:00:42.621 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 28
+]]></system-out>
+  </testcase>
+  <testcase name="quadDigitMultiplication" classname="karatsuba.KaratsubaImplementationTest" time="0.057">
+    <system-out><![CDATA[23:00:42.627 [main] INFO karatsuba.KaratsubaImplementation -- Karatsuba object created.
+23:00:42.627 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1234 and 5678
+23:00:42.627 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 1234 5678
+23:00:42.627 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.627 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.627 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 1234 5678
+23:00:42.629 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.630 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation with 12 34 56 78
+23:00:42.630 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 12 34 56 78
+23:00:42.630 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 12 and 56
+23:00:42.630 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 12 56
+23:00:42.630 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.630 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.630 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 12 56
+23:00:42.630 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.631 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 1 2 5 6
+23:00:42.632 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 1 2 5 6
+23:00:42.632 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 5
+23:00:42.632 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 5
+23:00:42.632 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 2 and 6
+23:00:42.632 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 12
+23:00:42.642 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 3 and 11
+23:00:42.642 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 3 11
+23:00:42.642 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.642 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.642 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 isn't normalized
+23:00:42.642 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 3 resulting in 03
+23:00:42.642 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.642 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 03 11
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 0 3 1 1
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 0 3 1 1
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 0 and 1
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 3 and 1
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 3
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 3 and 2
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 6
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 3
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 0
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 30
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 3 and 11 is 33
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 16
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 500
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 160
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 12 and 56 is 672
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 34 and 78
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 34 78
+23:00:42.643 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 34 78
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 3 4 7 8
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 3 4 7 8
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 3 and 7
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 21
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 4 and 8
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 32
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 7 and 15
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 7 15
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 7 isn't normalized
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 7 resulting in 07
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.644 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 07 15
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 0 7 1 5
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 0 7 1 5
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 0 and 1
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 7 and 5
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 35
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 7 and 6
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 42
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 7
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 0
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 70
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 7 and 15 is 105
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 52
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 2100
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 520
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 34 and 78 is 2652
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 46 and 134
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 46 134
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 is odd
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 46 isn't normalized
+23:00:42.645 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 46 resulting in 046
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 is odd
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 134 isn't normalized
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 134 resulting in 0134
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 is odd
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 3 is odd
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 046 isn't normalized
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 046 resulting in 0046
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 4 is even
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 0046 0134
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation with 0 46 1 34
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 0 46 1 34
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 0 and 1
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 46 and 34
+23:00:42.646 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 46 34
+23:00:42.647 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.651 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.655 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 46 34
+23:00:42.655 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.655 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 4 6 3 4
+23:00:42.656 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 4 6 3 4
+23:00:42.656 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 4 and 3
+23:00:42.656 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 12
+23:00:42.656 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 6 and 4
+23:00:42.656 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 24
+23:00:42.656 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 10 and 7
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 10 7
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 7 isn't normalized
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 7 resulting in 07
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 10 07
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 1 0 0 7
+23:00:42.657 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 1 0 0 7
+23:00:42.658 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 0
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 0 and 7
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 7
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 7
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 7
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 0
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 70
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 10 and 7 is 70
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 34
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 1200
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 340
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 46 and 34 is 1564
+23:00:42.659 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 46 and 35
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 46 35
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 46 35
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 4 6 3 5
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 4 6 3 5
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 4 and 3
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 12
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 6 and 5
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 30
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 10 and 8
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Starting string normalization with 10 8
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.660 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.661 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 1 is odd
+23:00:42.661 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 8 isn't normalized
+23:00:42.662 [main] INFO karatsuba.KaratsubaImplementation -- Added a left zero to 8 resulting in 08
+23:00:42.662 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.662 [main] INFO karatsuba.KaratsubaImplementation -- Determined that 2 is even
+23:00:42.662 [main] INFO karatsuba.KaratsubaImplementation -- Ending string normalization with 10 08
+23:00:42.662 [main] INFO karatsuba.KaratsubaImplementation -- Starting fragmentation of 0 and 0
+23:00:42.662 [main] INFO karatsuba.KaratsubaImplementation -- Ending fragmentation of double digit numbers with 1 0 0 8
+23:00:42.662 [main] INFO karatsuba.KaratsubaImplementation -- ABCD values determined 1 0 0 8
+23:00:42.662 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 0
+23:00:42.662 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.662 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 0 and 8
+23:00:42.662 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 0
+23:00:42.663 [main] INFO karatsuba.KaratsubaImplementation -- Started multiplication process with values of 1 and 8
+23:00:42.663 [main] INFO karatsuba.KaratsubaImplementation -- Single digit multiplication ended with result of 8
+23:00:42.663 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 8
+23:00:42.664 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 0
+23:00:42.664 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 80
+23:00:42.664 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 10 and 8 is 80
+23:00:42.665 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 38
+23:00:42.665 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 1200
+23:00:42.665 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 380
+23:00:42.665 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 46 and 35 is 1610
+23:00:42.665 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 46
+23:00:42.665 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 0
+23:00:42.665 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 4600
+23:00:42.665 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 46 and 134 is 6164
+23:00:42.669 [main] INFO karatsuba.KaratsubaImplementation -- ad + bc value determined as 2840
+23:00:42.669 [main] INFO karatsuba.KaratsubaImplementation -- First factor value detemirned as 6720000
+23:00:42.669 [main] INFO karatsuba.KaratsubaImplementation -- Second factor value determined as 284000
+23:00:42.669 [main] INFO karatsuba.KaratsubaImplementation -- Result of the multiplication between 1234 and 5678 is 7006652
+]]></system-out>
+  </testcase>
+</testsuite>

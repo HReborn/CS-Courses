@@ -1,0 +1,18 @@
+package karatsuba;
+
+// This class will hold the state of the multiplication
+public class MultiplicationTest {
+	
+	
+	
+	/*
+	 * i want it to have two classes to separate the karaimpl class
+	 * One class will hold the state of the multiplication with all values
+	 * Another class will handle the string normalization and separation
+	 * The karatsuba class will handle the calculation
+	 * 
+	*/
+	
+	@Test
+	public void 
+}

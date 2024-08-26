@@ -1,0 +1,11 @@
+package karatsuba;
+
+
+/**
+ * 
+ * This class will handle the fragmentation of the multiplication
+ * 
+ */
+public class Fragmenter {
+
+}

@@ -1,0 +1,16 @@
+package InsertionSort;
+
+public class InsertionSort {
+	public int[] sort(int[] arr) {
+		for (int limiter=0; limiter < arr.length; limiter++) {
+			int i = 1;
+			int border = arr[limiter];
+			while (border < arr[limiter-i]) {
+				i++;
+			}
+			
+		}
+		
+		return null;
+	}
+}

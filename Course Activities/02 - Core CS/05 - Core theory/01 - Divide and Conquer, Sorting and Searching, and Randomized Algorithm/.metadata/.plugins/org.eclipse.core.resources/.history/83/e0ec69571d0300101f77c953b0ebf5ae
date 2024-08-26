@@ -1,0 +1,22 @@
+package karatsuba;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+// This class will hold the state of the multiplication
+public class MultiplicationTest {
+	
+	private static final Logger logger 
+    = LoggerFactory.getLogger(KaratsubaImplementation.class);
+	
+	/*
+	 * i want it to have two classes to separate the karaimpl class
+	 * One class will hold the state of the multiplication with all values
+	 * Another class will handle the string normalization and separation
+	 * The karatsuba class will handle the calculation
+	 * 
+	*/
+	
+	@Test
+	public void 
+}

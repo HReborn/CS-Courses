@@ -1,0 +1,15 @@
+package karatsuba;
+
+import org.junit.Test;
+
+public class InjectorTest {
+
+	private Injector injector = new Injector();
+	
+	@Test
+	public void testKaratsubaInjection() {
+		Karatsuba karatsuba = new Karatsuba(8,9);
+		Karatsuba injection = 
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/Reborn/Repositories/CS-Courses/Course Activities/02 - Core CS/05 - Core theory/01 - Divide and Conquer, Sorting and Searching, and Randomized Algorithm/01.3 - BubbleSort/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+784979180.index
+3736901102.index

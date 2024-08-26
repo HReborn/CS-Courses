@@ -1,0 +1,34 @@
+package karatsuba;
+
+
+/**
+ * This class will handle the dependency injection of the project
+ */
+public class Injector {
+	
+	/**
+	 * 
+	 * @param x any int to construct the Karatsuba instance
+	 * @param y any int to construct the Karatsuba instance
+	 * @return Will return the Karatsuba instance
+	 */
+	public Karatsuba getKaratsubaInstance(int x, int y) {
+		return new Karatsuba(x, y);
+	}
+	/**
+	 * 
+	 * @return Will return the Karatsuba instance
+	 */
+	public Karatsuba getKaratsubaInstance() {
+		return new Karatsuba();
+	}
+	/**
+	 * 
+	 * @param x any int to construct the Fragmenter instance
+	 * @param y any int to construct the Fragmenter instance
+	 * @return Will return the Fragmenter instance
+	 */
+	public Fragmenter getFragmenterInstance(int x, int y) {
+		return new Fragmenter(x, y);
+	}
+}

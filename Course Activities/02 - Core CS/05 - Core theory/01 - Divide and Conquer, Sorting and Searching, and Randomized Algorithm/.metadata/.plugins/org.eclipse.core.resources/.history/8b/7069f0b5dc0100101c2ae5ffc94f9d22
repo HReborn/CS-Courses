@@ -1,0 +1,9 @@
+package karatsuba;
+
+public class KaratsubaInjector implements InjectorModel {
+
+	@Override
+	public Karatsuba getKaratsuba(int x, int y) {
+		return new KaratsubaImplementation(x,y);
+	}
+}

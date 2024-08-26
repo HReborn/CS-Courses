@@ -1,0 +1,19 @@
+package karatsuba;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class InjectorTest {
+
+	private Injector injector = new Injector();
+	
+	@Test
+	public void testKaratsubaInjection() {
+		Karatsuba karatsuba = new Karatsuba(8,9);
+		Karatsuba injection = injector.getKaratsubaInstance(8,9);
+		assertTrue(karatsuba.toString().equals(injection.toString()));
+	}
+	
+	
+}

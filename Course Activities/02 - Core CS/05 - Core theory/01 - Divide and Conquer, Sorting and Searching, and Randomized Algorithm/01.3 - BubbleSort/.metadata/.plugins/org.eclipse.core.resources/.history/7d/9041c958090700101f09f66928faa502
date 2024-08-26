@@ -1,0 +1,24 @@
+package BubbleSort;
+
+public class BubbleSort {
+
+	public int[] sort(int[] arr) {
+		int swaps = 1;
+		boolean unsorted = swaps > 0;
+		while (unsorted) {
+			int key = arr[0];
+			for (int j = 0; j < arr.length-1; j++) {
+				swaps = 0;
+				if (key > arr[j+1]) {
+					arr[j] = arr[j+1];
+					arr[j+1] = key;
+					swaps++;
+				} else {
+					key = arr[j+1];
+				}
+			}
+		}
+		return arr;
+	}
+
+}

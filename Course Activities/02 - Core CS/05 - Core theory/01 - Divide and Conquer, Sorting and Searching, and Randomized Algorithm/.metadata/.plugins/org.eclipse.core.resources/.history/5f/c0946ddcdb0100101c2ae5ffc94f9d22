@@ -1,0 +1,7 @@
+package karatsuba;
+
+public interface InjectorModel {
+	
+	Karatsuba getKaratsuba(int x, int y);
+
+}

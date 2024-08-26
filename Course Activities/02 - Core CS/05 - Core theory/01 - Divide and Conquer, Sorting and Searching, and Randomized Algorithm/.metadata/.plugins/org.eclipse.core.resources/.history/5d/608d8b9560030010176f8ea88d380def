@@ -1,0 +1,18 @@
+package karatsuba;
+
+
+/**
+ * 
+ * This class will handle the fragmentation of the karatsuba multiplication
+ * 
+ */
+public class Fragmenter {
+	
+	private int x;
+	private int y;
+	private int a;
+	private int b;
+	private int c;
+	private int d;
+	
+}

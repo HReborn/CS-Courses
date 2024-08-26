@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/Reborn/Repositories/CS-Courses/Course Activities/02 - Core CS/05 - Core theory/01 - Divide and Conquer, Sorting and Searching, and Randomized Algorithm/SelectionSort/.metadata/.plugins/org.eclipse.jdt.core
+3736901102.index
+2144527131.index
+1865797976.index

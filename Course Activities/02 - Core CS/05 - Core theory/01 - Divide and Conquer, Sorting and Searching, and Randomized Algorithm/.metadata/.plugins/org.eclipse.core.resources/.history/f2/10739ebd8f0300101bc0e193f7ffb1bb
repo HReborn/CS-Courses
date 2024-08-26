@@ -1,0 +1,94 @@
+package karatsuba;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+// This class will hold the state of the multiplication
+public class FragmenterTest {
+	
+	
+	/*
+	 * i want it to have two classes to separate the karaimpl class
+	 * One class will hold the state of the multiplication with all values
+	 * Another class will handle the string normalization and separation
+	 * The karatsuba class will handle the calculation
+	 * 
+	 * The karatsuba class will handle the calcs and will keep the state
+	 * while another class will handle the fragmentation
+	*/
+	
+	private Injector injector = new Injector();
+	
+	@Test
+	public void returnFalseForSingleDigits() {
+		Fragmenter fragmenter = injector.getFragmenterInstance();
+		boolean answer = fragmenter.shouldFragment(8,9);
+	}
+
+	@Test
+	public void returnTrueForDoubleWithSingleDigit() {
+		Fragmenter fragmenter = injector.getFragmenterInstance();
+		assertTrue(fragmenter.shouldFragment(9,12));
+	}
+	
+	@Test
+	public void returnFalseForSingleDigitsAttribute() {
+		Fragmenter fragmenter = injector.getFragmenterInstance();
+		boolean answer = fragmenter.shouldFragment(8,9);
+	}
+
+	@Test
+	public void returnTrueForDoubleWithSingleDigitAttribute() {
+		Fragmenter fragmenter = injector.getFragmenterInstance();
+		assertTrue(fragmenter.shouldFragment(9,12));
+	}
+	
+	@Test
+	public void fragmentingSingleDigit() {
+		Fragmenter fragmenter = injector.getFragmenterInstance();
+		String[] abcd = fragmenter.fragment(8,12);
+		assertEquals(abcd, new String[] {"0", "8", "1", "2"});
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

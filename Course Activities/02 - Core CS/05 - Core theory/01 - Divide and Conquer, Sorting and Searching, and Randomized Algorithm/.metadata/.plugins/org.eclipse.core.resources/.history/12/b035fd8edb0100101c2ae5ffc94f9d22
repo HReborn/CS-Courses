@@ -1,0 +1,8 @@
+package karatsuba;
+
+public class Injector {
+
+	public Karatsuba getKaratsuba(int x, int y) {
+		return new;
+	}
+}
