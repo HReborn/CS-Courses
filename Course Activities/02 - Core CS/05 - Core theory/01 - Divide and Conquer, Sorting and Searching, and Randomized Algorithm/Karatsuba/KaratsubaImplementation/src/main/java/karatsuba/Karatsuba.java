@@ -14,8 +14,7 @@ public class Karatsuba {
 		int a = abcd[0];
 		int b = abcd[1];
 		int c = abcd[2];
-		int d = abcd[3];
-		
+		int d = abcd[3];		
 		int ac = multiply(a, c);
 		int bd = multiply(b, d);
 		int ADPlusBC = multiply(a+b,c+d) - ac - bd;
