@@ -43,7 +43,7 @@ public class Karatsuba {
 		int d = Integer.parseInt(xyStr[1].substring(strHalfPoint));
 		return new int[] {a, b, c, d};
 	}
-	
+
 	// This method exists to add left zeroes to the strings to make their size even and equal
 	public String[] intNormalizer(int x, int y) {
 		String xStr =  Integer.toString(x);
