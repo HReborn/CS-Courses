@@ -180,7 +180,7 @@ Completed | Courses | Duration | Effort | Prerequisites | Discussion
 ❌ | [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages) | 5 weeks | 4-8 hours/week | Systematic Program Design ([Hear instructor](https://www.coursera.org/lecture/programming-languages/recommended-background-k1yuh)) | [chat](https://discord.gg/8BkJtXN)
 ❌ | [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b) | 3 weeks | 4-8 hours/week | Programming Languages, Part A | [chat](https://discord.gg/EeA7VR9)
 ❌ | [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 3 weeks | 4-8 hours/week | Programming Languages, Part B | [chat](https://discord.gg/8EZUVbA)
-❌ | [Object-Oriented Design](https://www.coursera.org/learn/object-oriented-design) | 4 weeks | 4 hours/week | [Basic Java](https://www.youtube.com/watch?v=GoXwIVyNvX0) | [chat](https://discord.com/channels/744385009028431943/891411727294562314)
+❌ | [Object-Oriented Design](https://www.coursera.org/learn/object-oriented-design) | 4 weeks | 4 hours/week | ❌ | [Basic Java](https://www.youtube.com/watch?v=GoXwIVyNvX0) | [chat](https://discord.com/channels/744385009028431943/891411727294562314)
 ❌ | [Design Patterns](https://www.coursera.org/learn/design-patterns) | 4 weeks | 4 hours/week | Object-Oriented Design | [chat](https://discord.com/channels/744385009028431943/891412022120579103)
 ❌ | [Software Architecture](https://www.coursera.org/learn/software-architecture) | 4 weeks | 2-5 hours/week | Design Patterns | [chat](https://discord.com/channels/744385009028431943/891412169638432788)
 
@@ -401,7 +401,7 @@ Completed | Courses | Duration | Effort | Prerequisites | Discussion
 
 Completed | Courses | Duration | Effort | Prerequisites | Discussion
 :--: | :-- | :--: | :--: | :--: | :--:
-❌ | [Theory of Computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) ([alternative](http://aduni.org/courses/theory/index.php?view=cw)) | 13 weeks | 10 hours/week | ❌ | ❌ | [Mathematics for Computer Science](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about), logic, algorithms
+❌ | [Theory of Computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) ([alternative](http://aduni.org/courses/theory/index.php?view=cw)) | 13 weeks | 10 hours/week | [Mathematics for Computer Science](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about), logic, algorithms
 ❌ | [Computational Geometry](https://www.edx.org/course/computational-geometry) | 16 weeks | 8 hours/week | algorithms, C++
 ❌ | [Game Theory](https://www.coursera.org/learn/game-theory-1) | 8 weeks | 3 hours/week | mathematical thinking, probability, calculus
 
